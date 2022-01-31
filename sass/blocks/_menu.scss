@@ -86,10 +86,14 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
-        width: 90px;
+        width: 130px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
     &__overlay {
         position: fixed;

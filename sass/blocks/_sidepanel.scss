@@ -9,11 +9,10 @@
     height: 340px;
     z-index: 3;
     &__link {
-       img {
-           &:hover {
-               background-color: #fff;
-           }
-       }
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
     &__divider {
         width: 2px;
